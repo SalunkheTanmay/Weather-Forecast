@@ -1,0 +1,109 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+body{
+    background-color: #4C4C6D;
+}
+
+.container{
+    width: 90%;
+    max-width: 450px;
+    margin: 100px auto 0px;
+    background-color: #AFD3E2;
+    text-align: center;
+    padding: 40px 35px;
+    border-radius: 20px;
+}
+
+.input{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.input input{
+    flex: 1;
+    height: 60px;
+    border: 0;
+    outline: 0;
+    color: #555;
+    border-radius: 30px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-right: 10px;
+    padding: 10px;
+    font-size: 18px;
+    background: #ebfffc;
+    text-align: center;
+}
+
+.input button{
+    border: 0;
+    outline: 0;
+    background: #ebfffc;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.input button .fa-solid fa-magnifying-glass{
+    width: 16px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:0 20px ;
+    margin-top: 50px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 10px;
+}
+
+.weather h1{
+    font-size: 70px;
+    font-weight: 500;
+}
+
+.weather h2{
+    font-size: 40px;
+    font-weight: 400;
+    margin-top: -8px;
+}
+
+.col{
+    display: flex;
+    align-items: center;
+    text-align:  left;
+}
+
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .Wind{
+    font-size: 25px;
+    margin-top: -5px;
+}
+
+.weather{
+    display: none;
+}
+
+.error{
+    display: none;
+    text-align: left;
+    padding-left: 10px;
+    margin-top: 10px;
+
+}
